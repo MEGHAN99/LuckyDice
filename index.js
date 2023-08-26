@@ -1,6 +1,6 @@
  let randomNumber1 = Math.floor(Math.random() * 6)+ 1;
  let randomImg = "dice"+randomNumber1+".png";
- let randomSrc = "images/"+randomImg;
+ let randomSrc = randomImg ;
  
  let img1=document.querySelectorAll("img")[0].setAttribute("src",randomSrc);
 
@@ -8,7 +8,7 @@
 
  let randomNo2 = Math.floor(Math.random()*6)+1;
  let randomImg1 = "dice"+randomNo2+".png";
- let randomsrc2 = "images/"+randomImg1;
+ let randomsrc2 = randomImg1;
 
  let img2 = document.querySelectorAll("img")[1].setAttribute("src",randomsrc2);
 let lucky = "LUCY day";
